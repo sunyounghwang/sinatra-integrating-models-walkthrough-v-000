@@ -4,4 +4,4 @@ require 'bundler/setup'
 Bundler.require(:default, ENV['SINATRA_ENV'])
 
 require './app'
-require_relative "models/text_analyzer.rb"
+require "./models/text_analyzer.rb"
